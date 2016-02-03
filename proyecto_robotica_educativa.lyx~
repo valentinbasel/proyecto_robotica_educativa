@@ -1,0 +1,402 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package none
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Robótica educativa con software y hardware libre en colegios técnicos
+\end_layout
+
+\begin_layout Section*
+Fundamentación
+\end_layout
+
+\begin_layout Standard
+ICARO es un proyecto colaborativo sin fines de lucro, que trata de acercar
+ de manera sencilla las nociones básicas de la electrónica y la programación
+ en un entorno robótico para utilizarlo dentro del aula como una herramienta
+ de aprendizaje.
+ 
+\end_layout
+
+\begin_layout Standard
+La robótica educativa, dado su carácter multidisciplinario, permite el abordaje
+ de conocimientos variados como la electrónica, informática, física y matemática
+ mediante la construcción de un juguete-objeto como puede ser un robot.
+ 
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/IMG_0134.JPG
+	display false
+	scale 10
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+placa para enseñanza de Róbotica ICARO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ El desarrollo de estos juguetes-objetos implica una experiencia que contribuye
+ a expandir la creatividad y el pensamiento reflexivo y científico de los
+ alumnos, en relación a la formulación de hipótesis, la experimentación
+ y la elaboración de conclusiones.
+ Al enfrentarse a un “problema” dado, los estudiantes aprenden a experimentar,
+ diseñar y resolver situaciones de carácter constructivista.
+ En el proceso de “pensar el robot”, se generan las condiciones de apropiación
+ del conocimiento por parte del alumno.
+ Se trata de otorgar a los alumnos un rol activo en sus aprendizajes, colocándol
+os como diseñadores de sus propios proyectos y constructores de conocimientos.
+ A su vez, el uso de software libre permite tener control sobre las característi
+cas del mismo, permitiendo adaptarlo a las necesidades concretas del ámbito
+ escolar y las realidades socio-económicas de la institución, es neutro
+ frente a fabricantes y todo el material usado puede ponerse a disposición
+ de otros docentes.
+\end_layout
+
+\begin_layout Standard
+Las 
+\begin_inset Quotes fld
+\end_inset
+
+placas ICARO
+\begin_inset Quotes frd
+\end_inset
+
+ están diseñadas para poder ser fabricadas a pequeña escala, con herramientas
+ sencillas y con componentes de fácil adquisición en la provincia.
+ 
+\end_layout
+
+\begin_layout Standard
+El núcleo del hardware se basa en el micro controlador PIC 18f4550 de la
+ firma microchip™, un micro controlador barato y muy potente con capacidad
+ para comunicación USB y control de señales analógicas y digitales.
+ El software de control forma parte del Programa Nacional Conectar Igualdad
+ y está pre instalado en el sistema operativo Huayra GNU/Linux de las netbooks
+ entregadas por el Estado en el marco de dicho programa.
+\end_layout
+
+\begin_layout Section*
+Objetivos generales
+\end_layout
+
+\begin_layout Itemize
+Capacitar a los docentes y alumnos de los colegios técnicos de la provincia
+ de Córdoba en el diseño y fabricación del hardware ICARO para robótica
+ y automatización industrial, posibilitando la apropiación de la tecnología
+ para proyectos pedagógicos.
+\end_layout
+
+\begin_layout Itemize
+Introducir a los docentes en el uso y desarrollo de proyectos educativos
+ basados en software y hardware libre.
+\end_layout
+
+\begin_layout Itemize
+Promover el uso del sistema operativo Huayra GNU/Linux.
+\end_layout
+
+\begin_layout Itemize
+Generar unidades de producción local de hardware para que los alumnos puedan
+ disponer de placas electrónicas de alta potencia de procesamiento y bajo
+ costo para sus proyectos escolares.
+\end_layout
+
+\begin_layout Section*
+Objetivos específicos
+\end_layout
+
+\begin_layout Itemize
+Aprender programación de lenguaje C para micro controladores PIC con el
+ compilador libre, SDCC.
+\end_layout
+
+\begin_layout Itemize
+Utilizar el lenguaje de programación PYTHON, para interactuar con el hardware
+ usando el puerto USB.
+\end_layout
+
+\begin_layout Itemize
+Usar herramientas de software libre para diseño de circuitos electrónicos
+ (KICAD).
+\end_layout
+
+\begin_layout Itemize
+Fabricar placas ICARO y aprender sobre su funcionamiento.
+\end_layout
+
+\begin_layout Itemize
+Diseñar un robot o un pequeño sistema de automatización.
+\end_layout
+
+\begin_layout Section*
+Contenidos
+\end_layout
+
+\begin_layout Itemize
+Introducción a la Robótica Educativa.
+\end_layout
+
+\begin_layout Itemize
+Presentación de proyecto ICARO de robótica educativa con software y hardware
+ libre.
+\end_layout
+
+\begin_layout Itemize
+Introducción al software libre.
+\end_layout
+
+\begin_layout Itemize
+Uso del sistema operativo Huayra GNU/Linux del Programa Conectar Igualdad.
+\end_layout
+
+\begin_layout Itemize
+Nociones básicas de programación con lenguaje PYTHON.
+\end_layout
+
+\begin_layout Itemize
+Pruebas de programación de micro controladores PICs 18f4550.
+\end_layout
+
+\begin_layout Itemize
+Sensores de Contacto, sensores de Luz, sensores de ultra sonido.
+\end_layout
+
+\begin_layout Itemize
+Servos motores, motores CC, motores PAP.
+\end_layout
+
+\begin_layout Itemize
+Comunicación y control del hardware vía puerto USB.
+\end_layout
+
+\begin_layout Itemize
+Uso del software libre para diseño de circuitos electrónicos KICAD.
+\end_layout
+
+\begin_layout Itemize
+Introducción al uso de software para diseño CAD/CAM 3d con FREECAD.
+\end_layout
+
+\begin_layout Section*
+Plan y estrategias de trabajo
+\end_layout
+
+\begin_layout Standard
+El curso de Robótica se desarrollará durante cuatro semanas en horario curricula
+r o extracurricular (un día a la semana, tres horas reloj).
+ Las actividades se llevarán a cabo en un salón con buena iluminación, dotado
+ con espacio para que los alumnos puedan trabajar con sus netbooks.
+\end_layout
+
+\begin_layout Standard
+El cupo máximo por curso será de 25 personas.
+ Para desarrollar las actividades, los participantes del curso se dividirán
+ en grupos integrados por cinco alumnos.
+ 
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/DSC_0334.JPG
+	display false
+	width 40col%
+	height 40col%
+	keepAspectRatio
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Alumnos usando ICARO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ En el caso de que participe en el curso más de un colegio, los grupos estarán
+ conformados por un docente y cuatro alumnos.
+ Cada grupo deberá contar con al menos una netbook -con el sistema operativo
+ Huayra GNU/Linux instalado-, un soldador de estaño, un alicate, un PCB
+ ICARO y los componentes necesarios para poder fabricar el hardware.
+ 
+\end_layout
+
+\begin_layout Section*
+Cronograma
+\end_layout
+
+\begin_layout Standard
+El Cronograma de cursado se dividirá en cuatro clases presenciales de tres
+ horas cada una con el siguiente formato:
+\end_layout
+
+\begin_layout Itemize
+1° clase.
+ Presentación del proyecto ICARO, introducción al hardware, electrónica
+ y programación de la placa, nociones de algoritmos.
+\end_layout
+
+\begin_layout Itemize
+2° clase.
+ Fabricación del hardware.
+\end_layout
+
+\begin_layout Itemize
+3° clase.
+ Uso de motores CC, servo motores y motores PAP.
+\end_layout
+
+\begin_layout Itemize
+4° clase.
+ Prueba de sensores analógicos y digitales, control del hardware desde la
+ netbook.
+ Finalización del curso.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section*
+Recursos
+\end_layout
+
+\begin_layout Standard
+Para cada curso se necesitarán los siguientes elementos, por grupo:
+\end_layout
+
+\begin_layout Itemize
+Soldador de estaño, alicates, tester, estaño y des soldador.
+\end_layout
+
+\begin_layout Itemize
+Pcb ICARO y componentes para fabricar cada placa (componentes electrónicos).
+\end_layout
+
+\begin_layout Itemize
+Netbook del Programa Conectar Igualdad con el sistema operativo HUAYRA GNU/Linux.
+\end_layout
+
+\begin_layout Standard
+Recursos pedagógicos:
+\end_layout
+
+\begin_layout Itemize
+Pizarrón
+\end_layout
+
+\begin_layout Itemize
+Cañón proyector
+\end_layout
+
+\begin_layout Itemize
+Espacio de trabajo con mesas para cada grupo y conexión eléctrica.
+\end_layout
+
+\end_body
+\end_document
